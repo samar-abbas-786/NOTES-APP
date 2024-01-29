@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+  }
+  h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 20px;
+  }
+  form {
+    margin-top: 1rem;
+    /* text-align: center; */
+  }
+  button {
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: brown;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 6rem;
+    margin-top: 1rem;
+  }
+  form textarea {
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+  }
+  .frm {
+    display: flex;
+    padding-left: 1rem;
+  }
+  .frm form {
+    margin-left: 1rem;
+  }
+  #textarea2 {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 800px){
+    .frm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   #d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+   }
+   #d textarea{
+    margin-top: 0.8rem;
+   }
+  }

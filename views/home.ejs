@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>NOTES APP</h1>
+    <div class="frm">
+    </form>
+    <form action="/" method="post">
+      <textarea name="text" id="textarea2" cols="30" rows="10"></textarea>
+      <button type="submit">ADD</button>
+    </form>
+      <form id="d">
+        <% data.forEach(element => { %>
+
+        <textarea name="text" id="" cols="30" rows="10">
+  <%= element.text %></textarea
+        >
+
+        <% }) %>
+     
+    </div>
+  </body>
+</html>
